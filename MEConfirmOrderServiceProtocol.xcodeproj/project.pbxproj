@@ -51,6 +51,7 @@
 		2CB2F4F31EA6081A001FD038 /* MEConfirmOrderServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEConfirmOrderServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB2F4F71EA6081A001FD038 /* MEConfirmOrderServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEConfirmOrderServiceProtocolUITests.m; sourceTree = "<group>"; };
 		2CB2F4F91EA6081A001FD038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB2F5081EA6086D001FD038 /* MEConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		2CB2F4D11EA6081A001FD038 /* MEConfirmOrderServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				2CB2F5051EA6082F001FD038 /* MEConfirmOrderServiceProtocol */,
 				2CB2F4D51EA6081A001FD038 /* AppDelegate.h */,
 				2CB2F4D61EA6081A001FD038 /* AppDelegate.m */,
 				2CB2F4D81EA6081A001FD038 /* ViewController.h */,
@@ -138,6 +140,14 @@
 				2CB2F4F91EA6081A001FD038 /* Info.plist */,
 			);
 			path = MEConfirmOrderServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+		2CB2F5051EA6082F001FD038 /* MEConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				2CB2F5081EA6086D001FD038 /* MEConfirmOrderServiceProtocol.h */,
+			);
+			path = MEConfirmOrderServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
